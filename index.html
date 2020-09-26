@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Superior Politécnico de Kangonjo</title>
+    <link rel="shortcut icon" href="_img/icone.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="_css/bootstrap.min.css">
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+    <main class="sombra">
+        <!-- Barra de Navegação -->
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white sombra">
+            <a class="navbar-brand" href="#"> <img src="_img/logotipo.png" height="30px" alt="Logotipo do ISKA"> </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="#">Início</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Cursos</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Galeria</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Instituto</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Secretaria Virtual</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Contactos</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="_img/foto-iska-1.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="_img/foto-iska-2.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="_img/foto-iska-3.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Sobre -->
+        <section class="p-4" id="sobre">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-7">
+                    <h2 class="text-lg-center">Quem somos?</h2>
+                    <p class="text-justify">Somos uma instituição de ensino e investigação científica de referência em Luanda, do grupo <strong>Manico Henda e Filhos, Lda.</strong> enquadrada no subsistema de ensino superior de Angola. Combinando um ensino de qualidade, focado nas vocações individuais e nas necessidades do mercado, com o estatuto de maior e primeiro <i>berço</i> universitário ao norte de Luanda, o ISKA oferece formação visando a obtenção de títulos académicos oficiais. E o modelo de educação dá especial importância à utilização de tecnologias de comunicação e treinamento orientado para a prática.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-5">
+                    <h4>Acesso ao ISKA</h4>
+                    <p class="text-justify">Para estudar no ISKA o candidato deve ter concluído com aproveitamento o Ensino Secundário ou equivalente. Ou ter frequência no Ensino Superior.</p>
+                    <p>Saiba mais como fazer a sua <a href="#">inscrição, transferência ou equivalência de estudo</a> no ISKA</p>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-sm-6 col-md-6 col-lg-7">
+                    <h4>Somos ainda</h4>
+                    <strong class="text-danger">+ INOVADORES</strong> | Porque pensamento em acção - competências aplicadas à resolução de problemas reais;<br>
+                    <strong class="text-warning">+ PRÁTICOS</strong> | Porque promovemos um ensino pragmático;<br>
+                    <strong class="text-info">+ ESPECIALIZADOS</strong> | Porque temos um corpo docente altamente qualificado;<br>
+                    <strong class="text-primary">+ COMPETITIVOS</strong> | Porque temos ferramentas inovadoras;<br>
+                    <strong class="text-success">+ MERCADO DE TRABALHO</strong> | Rapidez na inserção do mercado de trabalho pela qualidade e metodologia.
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-5">
+                    <video id="video" controls="controls" poster="imagens/foto-video.jpg" width="100%">
+                        <source src="_media/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="p-4 text-center text-white">
+            <p> <small>&copy; Todos os direitos reservados</small><br><small>Ladislau Nunes</small> </p>
+        </footer>
+    </main>
+    <!-- Meus scripts -->
+    <!-- Scripts do Bootstrap -->
+    <script src="_js/jquery-3.5.1.min.js"></script>
+    <script src="_js/popper.min.js"></script>
+    <script src="_js/bootstrap.min.js"></script>
+</body>
+</html>

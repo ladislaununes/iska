@@ -1,0 +1,17 @@
+body { background-color: #dad2d2; }
+hr { width: 40px; border: 1px solid #9c2624; }
+h2 { color: #9c2624; }
+h4 { color: #9c2624; text-transform: uppercase; }
+
+main { width: 74%; margin: auto; background-color: #f5f5f5; }
+@media screen and (max-width: 920px){
+    main { width: 100%; }
+}
+.navbar-light .navbar-nav .nav-link { color: #000; }
+.navbar-light .navbar-nav .nav-link:hover { color: #9c2624; }
+.navbar-light .navbar-nav .active .nav-link { color: #9c2624;  }
+
+.text-justify { text-indent: 2em; }
+.sombra { box-shadow: 0 0 5px #333; }
+
+footer { background-color: #9c2624; }

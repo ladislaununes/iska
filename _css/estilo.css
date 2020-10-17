@@ -7,6 +7,7 @@
 body { background-color: #dad2d2; color: #333; margin-top: 60px;}
 hr { width: 40px; border: 1px solid #9c2624; }
 h2, h3, h4 { color: #9c2624; }
+p { text-align: justify; }
 main { width: 74%; margin: auto; background-color: #f5f5f5; }
 @media screen and (max-width: 920px){
     main { width: 100%; }
@@ -14,7 +15,6 @@ main { width: 74%; margin: auto; background-color: #f5f5f5; }
 .navbar-light .navbar-nav .nav-link { color: #000; }
 .navbar-light .navbar-nav .nav-link:hover { color: #9c2624; }
 .navbar-light .navbar-nav .active .nav-link { color: #9c2624; font-weight: bold; }
-.text-justify { text-indent: 2em; }
 .sombra { box-shadow: 0 0 5px #333; }
 footer { background-color: #9c2624; }
 
@@ -30,11 +30,17 @@ footer { background-color: #9c2624; }
     #newsletter h1 { font-size: 18pt; }
 }
 
-/* Galeria */
-#galeria img { padding: 4px; }
+/* Cursos */
+.opcao-1 { display: none; }
+@media screen and (max-width: 500px) {
+  .opcao-1 { display: unset; }
+  .opcao-2 { display: none; }
+}
 
 /* Galeria */
-#instituto > div { border: 1px solid #cecece; }
+#galeria img { padding-top: 4px; padding-bottom: 4px; }
+#cursos > div, #instituto > div { border: 1px solid #cecece; }
+
 /* Contactos */
 #localizacao { background: url("../_img/icone-localizacao.png") no-repeat 95% 1%; }
 #form-mensagem textarea { background: url("../_img/icone-mensagem.png") no-repeat 95% 95%; }
@@ -54,7 +60,6 @@ ul { list-style-type: square; }
     position: fixed;
     display: block
 }
-
 
 @keyframes loader {
   0%, 10%, 100% {
